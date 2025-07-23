@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { Badge } from "../../components/ui/badge";
 
 import * as SiIcons from "react-icons/si";
 import * as FaIcons from "react-icons/fa";
