@@ -28,6 +28,7 @@ export default function Footer() {
         <div className="flex space-x-4">
           {
             DataItems.footer.socials.map((item) => {
+              //@ts-ignore
               const CurrentIcon = FaIcons[item.icon]
               return  <SocialIcon
                 href={item.url}

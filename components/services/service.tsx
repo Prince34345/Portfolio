@@ -45,7 +45,8 @@ export default function Services() {
           }}
         >
           {DataItems.servicepage.services.map((service, index) => {
-            const CurrentIcon = Icons[service.icon];
+           //@ts-ignore
+           const CurrentIcon = Icons[service.icon];
           return <motion.div
               key={index}
               whileHover={{ scale: 1.03 }}
@@ -58,11 +59,11 @@ export default function Services() {
               className="h-full"
             >
               <Card
-                className={`h-full flex flex-col justify-between bg-white/60 dark:bg-zinc-800/40 backdrop-blur-md shadow-lg border-2 border-${service.color} transition-colors`}
+                className={`h-full flex flex-col justify-between bg-white/60 dark:bg-zinc-800/40 backdrop-blur-md shadow-lg border-2 transition-colors`}
               >
                 <CardHeader className="flex flex-col items-start space-y-4">
                   <div className="p-3 bg-white/40 dark:bg-zinc-700 rounded-full shadow-md">
-                  <CurrentIcon className={`w-10 h-10 text-${service.color}`}/>
+                  <CurrentIcon className={`w-10 h-10`}/>
                   </div>
                   <CardTitle className="text-lg font-semibold text-zinc-800 dark:text-white">
                     {service.title}

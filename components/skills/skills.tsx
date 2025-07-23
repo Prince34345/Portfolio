@@ -51,7 +51,9 @@ export default function Skills() {
       {/* Skills Grid */}
       <div className="relative z-10 max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
         {DataItems.skillpage.skills.map((skill, index) => {
+          // @ts-ignore
           const SiIcon = SiIcons[skill.icon];
+          // @ts-ignore
           const FaIcon = FaIcons[skill.icon];
           return (
             <motion.div

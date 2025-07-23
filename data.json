@@ -45,38 +45,36 @@
       {
         "title": "Full-Stack Web Development",
         "description": "Crafting dynamic, high-performance web apps using React, Node.js & Next.js.",
-        "icon": "Code",
-        "color": "pink-500"
+        "icon": "Code"
       },
       {
         "title": "Mobile App Development",
         "description": "Building smooth mobile apps with React Native for Android & iOS.",
-        "icon": "Smartphone",
-        "color": "indigo-500"
+        "icon": "Smartphone"
+       
       },
       {
         "title": "Backend API Development",
         "description": "Powerful REST APIs and backend logic using Node, Supabase, PostgreSQL.",
-        "icon": "Server",
-        "color": "blue-500"
+        "icon": "Server"
+        
       },
       {
         "title": "Database Management",
         "description": "Data modeling & management with MongoDB, SQL, Supabase, PostgreSQL.",
-        "icon": "Database",
-        "color": "green-500"
+        "icon": "Database"
+        
       },
       {
         "title": "UI/UX Implementation",
         "description": "Pixel-perfect UI using TailwindCSS, Framer Motion & shadcn/ui.",
-        "icon": "PenTool",
-        "color": "purple-500"
+        "icon": "PenTool"
       },
       {
         "title": "Deployment & Hosting",
         "description": "Reliable hosting via Vercel, Netlify, or traditional servers.",
-        "icon": "Globe",
-        "color": "yellow-500"
+        "icon": "Globe"
+       
       }
     ]
   },
