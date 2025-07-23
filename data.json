@@ -1,0 +1,190 @@
+{
+  "navbar": {
+    "navLinks": [
+      { "label": "Home", "href": "/"},
+      { "label": "About", "href": "/about" },
+      { "label": "Service", "href": "/service" },
+      { "label": "Skills", "href": "/skills" },
+      { "label": "Contact", "href": "/contact" }
+    ]
+  },
+  "homepage": {
+    "siteName": "Portfolio",
+    "hero": {
+      "headline": "Hey, I'm Priyanshu 👋",
+      "description": "I craft web experiences using html, css, reactjs and lots of hardwork and discipline",
+      "buttons": [
+        {
+          "text": "See Projects",
+          "href": "/projects"
+        },
+        {
+          "text": "Download CV",
+          "href": "/cv.pdf"
+        }
+      ],
+      "tags": ["Compassionate", "Achieve Goals", "Aims", "Discipline"]
+    }
+  },
+  "aboutPage": {
+    "title": "Hey! I’m Priyanshu 👋",
+    "paragraphs": [
+      "I am a passionate web developer with over 3 years of hands-on experience. I specialize in crafting responsive, interactive, and scalable web interfaces. I recently graduated from college and am constantly exploring greater opportunities to grow and build impactful digital products.",
+      "I’m now diving into mobile app development and expanding my capabilities into cross-platform solutions. Whether you need a robust web app or a beautiful mobile experience, I’m available for freelance or production work.",
+      "Let’s build something awesome together 🚀"
+    ],
+    "tags": ["Opportunity Seeker", "Mobile Dev Enthusiast", "Front-End Dev"],
+    "image": {
+      "alt": "Developer working on computer illustration",
+      "src": "/images/person.jpg"
+    }
+  },
+  "servicepage": {
+    "title": "Services I Offer to you",
+    "services": [
+      {
+        "title": "Full-Stack Web Development",
+        "description": "Crafting dynamic, high-performance web apps using React, Node.js & Next.js.",
+        "icon": "Code",
+        "color": "pink-500"
+      },
+      {
+        "title": "Mobile App Development",
+        "description": "Building smooth mobile apps with React Native for Android & iOS.",
+        "icon": "Smartphone",
+        "color": "indigo-500"
+      },
+      {
+        "title": "Backend API Development",
+        "description": "Powerful REST APIs and backend logic using Node, Supabase, PostgreSQL.",
+        "icon": "Server",
+        "color": "blue-500"
+      },
+      {
+        "title": "Database Management",
+        "description": "Data modeling & management with MongoDB, SQL, Supabase, PostgreSQL.",
+        "icon": "Database",
+        "color": "green-500"
+      },
+      {
+        "title": "UI/UX Implementation",
+        "description": "Pixel-perfect UI using TailwindCSS, Framer Motion & shadcn/ui.",
+        "icon": "PenTool",
+        "color": "purple-500"
+      },
+      {
+        "title": "Deployment & Hosting",
+        "description": "Reliable hosting via Vercel, Netlify, or traditional servers.",
+        "icon": "Globe",
+        "color": "yellow-500"
+      }
+    ]
+  },
+  "skillpage": {
+    "animatedTitles": [
+      "Tools I Craft With Daily",
+      "My Daily Dev Kit ⚒️",
+      "Skills That Power My Code 🚀",
+      "Gears in My Dev Arsenal 🧠"
+    ],
+    "skills": [
+      { "name": "HTML", "icon": "SiHtml5", "color": "text-[#E44D26]" },
+      { "name": "CSS", "icon": "SiCss3", "color": "text-[#264DE4]" },
+      {
+        "name": "JavaScript",
+        "icon": "SiJavascript",
+        "color": "text-[#F0DB4F]"
+      },
+      { "name": "React.js", "icon": "SiReact", "color": "text-[#61DAFB]" },
+      { "name": "React Native", "icon": "SiReact", "color": "text-[#61DAFB]" },
+      {
+        "name": "TailwindCSS",
+        "icon": "SiTailwindcss",
+        "color": "text-[#38BDF8]"
+      },
+      {
+        "name": "Next.js",
+        "icon": "SiNextdotjs",
+        "color": "text-[#000000] dark:text-[#ffffff]"
+      },
+      { "name": "Node.js", "icon": "SiNodedotjs", "color": "text-[#68A063]" },
+      { "name": "MongoDB", "icon": "SiMongodb", "color": "text-[#4DB33D]" },
+      { "name": "SQL", "icon": "FaDatabase", "color": "text-[#003B57]" },
+      {
+        "name": "PostgreSQL",
+        "icon": "SiPostgresql",
+        "color": "text-[#336791]"
+      },
+      { "name": "Supabase", "icon": "SiSupabase", "color": "text-[#3ECF8E]" },
+      { "name": "Java", "icon": "FaJava", "color": "text-[#007396]" },
+      { "name": "Python", "icon": "SiPython", "color": "text-[#3776AB]" },
+      { "name": "C++", "icon": "SiCplusplus", "color": "text-[#00599C]" }
+    ]
+  },
+  "contactpage": {
+    "title": "Let's Connect ✨",
+    "description": "Whether it's a website, app, or just a conversation — I'm all ears. Drop a message below 📬",
+    "form": {
+      "fields": [
+        {
+          "name": "name",
+          "placeholder": "Your Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "email",
+          "placeholder": "Your Email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "message",
+          "placeholder": "Tell me about your project or just say hi...",
+          "required": true
+        }
+      ],
+      "buttonText": "Send Message 🚀"
+    }
+  },
+  "projectpage": {
+    "title": "My Projects",
+    "projects": [
+      {
+        "title": "Chat-App",
+        "description": "A sleek chat-app for easy to use.",
+        "image": "/images/chat-app.png",
+        "tech": [
+          "ReactJs",
+          "TailwindCSS",
+          "Socket.IO",
+          "MongoDB",
+          "Cloundinary"
+        ],
+        "live": "https://chat-app-5gkc.onrender.com/",
+        "github": "https://github.com/Prince34345/chat-app"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "message": "Built with me 💜",
+    "socials": [
+      {
+        "platform": "Twitter",
+        "icon": "FaTwitter",
+        "url": "https://x.com/PrinceDhaw10"
+      },
+      {
+        "platform": "LinkedIn",
+        "icon": "FaLinkedin",
+        "url": "https://www.linkedin.com/in/priyanshu-dhawan-210661281/"
+      },
+      {
+        "platform": "GitHub",
+        "icon": "FaGithub",
+        "url": "https://github.com/Prince34345"
+      }
+    ]
+  }
+}
